@@ -1,8 +1,11 @@
 # QGIS Projects
 
 **Student:** Megan Larson
+
 **Course:** GIST 604B – Open Source GIS
+
 **Module:** Module 2 - QGIS Desktop GIS
+
 **University of Arizona**
 
 ## Project Description
