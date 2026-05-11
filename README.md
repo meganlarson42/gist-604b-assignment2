@@ -1,39 +1,54 @@
-# gist-604b-assignment2
-GIST 604B Assignment 2: QGIS Desktop GIS Projects
+# QGIS Projects
 
-### Overview
+**Student:** Megan Larson
+**Course:** GIST 604B – Open Source GIS
+**Module:** Module 2 - QGIS Desktop GIS
+**University of Arizona**
 
-In this assignment I completed 10 QGIS tutorials to practice using the software. These basic tutorials introduced me to common uses for a GIS software, such as creating a map layout or layer styling, as well as more complicated tasks like spatial joins and queries. This repository demonstrates my understanding of the QGIS software and contains the project files and screenshots of all the outputs.
+## Project Description
+This project involved learning QGIS, a leading open-source desktop mapping software. I completed a series of professional tutorials to learn how to manage geographic data, perform spatial analysis, and create high-quality maps without relying on expensive licensed software.
 
-### Software Environment
-QGIS Version 4.0.1
-Windows OS
+## Tools and Technologies
+- QGIS Desktop (Open Source GIS)
+- GitHub (Project Documentation and Hosting)
+- Vector Data (Shapefiles, GeoJSON)
+- Raster Data (Satellite/Elevation Imagery)
+- Spreadsheet Data (CSV/Excel)
 
-### Completed Tutorials
-1. Making a Map: https://www.qgistutorials.com/en/docs/3/making_a_map.html
-2. Working with Projections: https://www.qgistutorials.com/en/docs/3/working_with_projections.html
-3. Working with Attributes: https://www.qgistutorials.com/en/docs/3/working_with_attributes.html
-4. Importing Spreadsheets or CSV files: https://www.qgistutorials.com/en/docs/3/importing_spreadsheets_csv.html
-5. Basic Vector Styling: https://www.qgistutorials.com/en/docs/3/basic_vector_styling.html
-6. Basic Raster Styling and Analysis: https://www.qgistutorials.com/en/docs/3/raster_styling_and_analysis.html
-7. Performing Table Joins: https://www.qgistutorials.com/en/docs/3/performing_table_joins.html
-8. Performing Spatial Joins: https://www.qgistutorials.com/en/docs/3/performing_spatial_joins.html
-9. Performing Spatial Queries: https://www.qgistutorials.com/en/docs/3/performing_spatial_queries.html
-10. Creating Heatmaps: https://www.qgistutorials.com/en/docs/3/creating_heatmaps.html
+## What I Did
+- **Map Fundamentals:** Learned how to set up map projections (CRS) to ensure data aligns correctly and styled both vector shapes and raster images for clear communication.
+- **Managed Data Tables:** Practiced cleaning attribute data and performing "Table Joins" to connect external spreadsheet information to map boundaries.
+- **Executed Spatial Analysis:** Used "Spatial Joins" and "Spatial Queries" to find relationships between different layers, such as identifying which points fall inside specific areas.
+- **Created Professional Maps:** Built print-ready map layouts including essential elements like legends, scale bars, and titles.
+- **Published to GitHub:** Set up a structured repository with dedicated folders for project files and map outputs to demonstrate a professional GIS workflow.
 
-### Skills Demonstrated
-- Creating a map layout
-- Working with coordinate reference systems (CRS)
-- Working with attribute tables and making selections
-- Importing data from spreadsheets and CSV files
-- Styling and analyzing vector and raster layers
-- Attribute table editing and joins
-- Spatial joins and spatial queries
-- Creating a heatmap
+## How to View / Run
+- **Project Files:** Download the .qgz files from the projects/ folder and open them using any recent version of QGIS.
+- **View Results:** Browse the outputs/ folder to see screenshots of the completed maps and analysis results.
 
-### Reflection
+## Repository Structure
 
-After working exclusively with ArcGIS Pro for map making in previous courses, this assignment was a quick introduction into how to use QGIS. Many of the concepts are the same between the two programs. 
-One thing I found challenging was how much QGIS ‘remembers’ the last time you used a tool. I had a few issues with importing data because the settings didn’t reset to their default. 
-By exploring QGIS I have expanded my skills to include another GIS program. After realizing they are much the same I feel like I have a strong basic understanding that I could apply to any GIS mapping program. The concepts carry over, I just need to learn the UI.
-
+/
+├── README.md
+├── projects/
+│   ├── making_a_map_larson.qgz
+│   ├── working_with_projections_larson.qgz
+│   ├── working_with_attributes_larson.qgz
+│   ├── importing_spreadsheets_csv_larson.qgz
+│   ├── basic_vector_styling_larson.qgz
+│   ├── basic_raster_styling_larson.qgz
+│   ├── performing_table_joins_larson.qgz
+│   ├── performing_spatial_joins_larson.qgz
+│   ├── performing_spatial_queries_larson.qgz
+│   └── creating_heatmaps_larson.qgz
+└── outputs/
+    ├── making_a_map_larson.png
+    ├── working_with_projections_larson.png
+    ├── working_with_attributes_larson.png
+    ├── importing_spreadsheets_larson.png
+    ├── basic_vector_styling_larson.png
+    ├── basic_raster_styling_larson.png
+    ├── performing_table_joins_larson.png
+    ├── performing_spatial_joins_larson.png
+    ├── performing_spatial_queries_larson.png
+    └── creating_heatmaps_larson.png
